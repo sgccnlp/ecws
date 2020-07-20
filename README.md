@@ -22,10 +22,31 @@ R3.1
 ## 模型命名
     NLP-ECWS-R3.1
 
-## 执行脚本
-```bash
-bash serve.sh
+## 使用方式
+
 ```
+git clone http://114.215.139.32:3000/sbc/NLP-ECWS-R3.1.git
+cd NLP-ECWS-R3.1
+pip install -e .
+```
+下载`bert-model`和`model.tar.gz`文件，后续提供
+
+python引用方式：
+
+```python
+
+from ecws.predict import Predictor
+
+bert_model_path = bert_model_path
+model_tar_gz_path = model_tar_gz_path
+
+predict = Predictor(model_tar_gz_path, bert_model_path)
+
+d = predict.seg(sent)
+```
+
+其中返回的结果是一个字典，字段'sent'中包含分词结果。
+
 
 ## 开发者
 
