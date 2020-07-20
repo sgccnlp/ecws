@@ -1,0 +1,1 @@
+{"dataset_reader": {"type": "raw_rsv_cws_bert", "max_length": 40, "vocab_path": "bert-model/transformers-BertModel", "token_indexers": {"tokens": "text_id"}}}
