@@ -9,11 +9,7 @@ import importlib
 import pkgutil
 import json
 
-
 root = os.path.dirname(os.path.abspath(__file__))
-
-
-
 
 def import_module_and_submodules(package_name: str) -> None:
     """
@@ -42,13 +38,10 @@ def import_module_and_submodules(package_name: str) -> None:
             subpackage = f"{package_name}.{name}"
             import_module_and_submodules(subpackage)
 
-
 library = 'my_library'
 import_module_and_submodules(library)
 
-
 class Segmenter:
-
     def __init__(self, archive, vocab_path, cuda_devices=-1):
         overrides = {
             "dataset_reader": {
@@ -72,5 +65,4 @@ class Segmenter:
     def seg(self, sent):
         # d = self.predictor.predict_json(json.dumps({'sent': sent}, ensure_ascii=False))
         d = self.predictor.predict_json({'sent': sent})
-
         return d['spans']

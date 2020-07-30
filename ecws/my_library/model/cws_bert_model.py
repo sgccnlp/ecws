@@ -10,7 +10,6 @@ from transformers.tokenization_bert import _is_whitespace
 
 import torch
 
-
 def generate_spans_from_tags(tokens: List[Token], raw_text: str, tags: List, white_split=True):
 
     def process_inner_text(inner_text: List[str]) -> List[str]:
@@ -77,7 +76,6 @@ def generate_spans_from_tags(tokens: List[Token], raw_text: str, tags: List, whi
     if len(span) > 0:
         _ = merge_span_to_spans(start, span)
     return spans
-
 
 @Model.register("cws_bert")
 class CWSBertModel(Model):
