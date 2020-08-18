@@ -24,5 +24,5 @@ setup(
         "torch==1.5.1",
         "allennlp==1.0.0",
     ],
-    python_requires='>=3.6',
+    python_requires='>=3.6'
 )
