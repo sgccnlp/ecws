@@ -16,13 +16,23 @@ R3.0.1
 ## 模型命名
     NLP-ECWS-R3.0.1
 
-## 使用方式
+## 安装
 
-```
-git clone http://114.215.139.32:3000/sbc/NLP-ECWS.git
-cd NLP-ECWS-R3.0.1
-pip install -e .
-```
+* 第一步，安装 ecws
+
+	使用 pip 安装
+
+	```
+	$ pip install ecws
+	```
+	或从源代码安装
+
+	```
+    git clone https://github.com/rises-tech/ecws.git
+    cd NLP-ECWS-R3.0.1
+    pip install -e .
+    ```
+ 
 下载`ecws.model`文件，后续提供
 
 python引用方式：
@@ -42,5 +52,6 @@ d = predict.seg(sent)
 
 
 ## 开发者
+张强<<[alxor@live.cn](alxor@live.cn)>>
 
 
