@@ -2,15 +2,19 @@ from setuptools import setup,find_packages
 from ecws import VERSION
 
 SHORT_DESC = (
-    "一种面向电力领域的中文分词工具"
+    "面向电力领域的中文分词工具"
 )
+
+with open('README.md','r') as fh:
+    long_description = fh.read()
+    
 
 setup(
     name="ecws",
     version=VERSION,
     description=SHORT_DESC,
-    long_description=open('README.md').read(),
-    keywords=("ecws", "3.0.1"),
+    long_description=long_description,
+    keywords=("ecws", "3.0.2"),
     url="http://github.com/rises-tech/ecws",
     author="alxor",
     author_email="alxor@live.cn",
