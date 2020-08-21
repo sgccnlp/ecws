@@ -14,7 +14,7 @@ R3.0.1
 ```
 
 ## 模型命名
-  NLP-ECWS-R3.0.1
+  NLP-ECWS-R3.0.2
 
 ## 安装
 
@@ -28,13 +28,16 @@ pip install ecws
 
 ```bash
 git clone https://github.com/rises-tech/ecws.git
-cd NLP-ECWS-R3.0.1
+cd NLP-ECWS
 pip install -e .
 ```
  
-下载`ecws.model`文件，后续提供
+* 下载`ecws.model`文件
+| Model Name         | Download Link    |
+| ------------------ | ---------------  |
+| ecws.v3.model  | [BaiduPan](https://pan.baidu.com/s/1Z2DOzfG3jQUeAW66JPm2vg) |
 
-python引用方式：
+* python引用方式：
 
 ```python
 
