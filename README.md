@@ -10,7 +10,7 @@ ecws 依赖以下包:
 
 ## 版本号
 ```
-R3.0.1
+R3.0.2
 ```
 
 ## 模型命名
@@ -49,6 +49,21 @@ model_path = 'ecws.model'
 predict = Segmenter(model_path)
 
 d = predict.seg(sent)
+```
+* 接口demo界面
+```
+http://120.27.25.150:8082/
+```
+
+* web api 调用方式
+```python
+def webservice_ecws(sentence):
+  data = {'sent': sentence}
+  url = 'http://120.27.25.150:8082/predict'
+  r = requests.post(url, json=data)
+  data = json.loads(r.text)
+  seg = data['spans']
+  return seg
 ```
 
 其中返回的结果是一个字典，字段'sent'中包含分词结果。
