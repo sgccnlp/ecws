@@ -58,6 +58,7 @@ http://120.27.25.150:8082/
 ```
 
 * web api 调用方式
+
 ```python
 def webservice_ecws(sentence):
   data = {'sent': sentence}
@@ -67,12 +68,10 @@ def webservice_ecws(sentence):
   seg = data['spans']
   return seg
 ```
-* 电力自然语言处理演示平台
-```
-[http://demo.rises.tech](http://demo.rises.tech)
-```
 其中返回的结果是一个字典，字段'sent'中包含分词结果。
 
+* 电力自然语言处理演示平台
+[http://demo.rises.tech](http://demo.rises.tech)
 
 ## 开发者
 @ 张强<<[alxor@live.cn](alxor@live.cn)>>
