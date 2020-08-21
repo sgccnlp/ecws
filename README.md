@@ -36,7 +36,9 @@ pip install -e .
 
 | Model Name  | Download Link |
 | ------------------  |  ---------------  |
-| ecws.v3.model | [BaiduPan](https://pan.baidu.com/s/1Z2DOzfG3jQUeAW66JPm2vg) |
+| ecws.v3.model | [BaiduPan](https://pan.baidu.com/s/1a6DoMVRdJLdC9gZOJL88aA) 提取码：ecws |
+
+
 
 * python引用方式：
 
