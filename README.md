@@ -68,7 +68,7 @@ def webservice_ecws(sentence):
   return seg
 ```
 * 电力自然语言处理演示平台
-  http://demo.rises.tech
+    http://demo.rises.tech
 
 其中返回的结果是一个字典，字段'sent'中包含分词结果。
 
