@@ -10,11 +10,11 @@ ecws 依赖以下包:
 
 ## 版本号
 ```
-R3.0.4
+R3.0.5
 ```
 
 ## 模型命名
-  NLP-ECWS-R3.0.4
+  NLP-ECWS-R3.0.5
 
 ## 安装
 
@@ -69,7 +69,7 @@ def webservice_ecws(sentence):
 ```
 * 电力自然语言处理演示平台
   http://demo.rises.tech
-  
+
 其中返回的结果是一个字典，字段'sent'中包含分词结果。
 
 

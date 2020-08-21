@@ -16,7 +16,7 @@ setuptools.setup(
     description=SHORT_DESC,
     long_description=long_description,
     long_description_content_type="text/markdown",
-    keywords=("ecws", "3.0.3"),
+    keywords=("ecws", "3.0.5"),
     url="http://github.com/rises-tech/ecws",
     author="alxor",
     author_email="alxor@live.cn",
