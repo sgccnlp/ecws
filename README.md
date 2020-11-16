@@ -32,11 +32,12 @@ cd NLP-ECWS
 pip install -e .
 ```
  
-* 下载`ecws.model`文件
+* 下载`ecws.model`文件和`vocab`文件
 
 | Model Name  | Download Link |
 | ------------------  |  ---------------  |
 | ecws.v3.model | [BaiduPan](https://pan.baidu.com/s/1a6DoMVRdJLdC9gZOJL88aA) 提取码：ecws |
+| vocab | - |
 
 
 
@@ -47,8 +48,9 @@ pip install -e .
 from ecws.segment import Segmenter
 
 model_path = 'ecws.model'
+vocab_path = 'vocab_dir'  # 指向下载的vocab文件夹
 
-predict = Segmenter(model_path)
+predict = Segmenter(model_path, vocab_path)
 
 d = predict.seg(sent)
 ```
