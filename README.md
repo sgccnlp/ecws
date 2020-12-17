@@ -1,4 +1,5 @@
 [![Documentation Status](https://readthedocs.org/projects/nlp-ecws-r30/badge/?version=latest)](https://nlp-ecws-r30.readthedocs.io/zh_CN/latest/?badge=latest)
+[![Build status](https://ci.appveyor.com/api/projects/status/67pa0koiuf7pi1ql?svg=true)](https://ci.appveyor.com/project/campper/ecws)
 [![PyPI Downloads](https://img.shields.io/pypi/dm/ecws.svg)](https://pypi.python.org/pypi/ecws)
 #   电力领域中文分词模型
 ecws　是面向电力领域的基础中文分词模型组件，目标是打造电力领域的自然语言处理基础能力
