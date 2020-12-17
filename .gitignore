@@ -57,3 +57,5 @@ target/
 archival
 /.pypirc
 .idea
+models/
+papers/
