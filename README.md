@@ -1,4 +1,5 @@
 [![Documentation Status](https://readthedocs.org/projects/nlp-ecws-r30/badge/?version=latest)](https://nlp-ecws-r30.readthedocs.io/zh_CN/latest/?badge=latest)
+![CODE SIZE](https://img.shields.io/github/languages/code-size/rises-tech/ecws)
 [![Build status](https://ci.appveyor.com/api/projects/status/67pa0koiuf7pi1ql?svg=true)](https://ci.appveyor.com/project/campper/ecws)
 [![PyPI Downloads](https://img.shields.io/pypi/dm/ecws.svg)](https://pypi.python.org/pypi/ecws)
 #   电力领域中文分词模型
