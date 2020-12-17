@@ -1,7 +1,6 @@
+[![Documentation Status](https://readthedocs.org/projects/nlp-ecws-r30/badge/?version=latest)](https://nlp-ecws-r30.readthedocs.io/zh_CN/latest/?badge=latest)
 #   电力领域中文分词模型
 ecws　是面向电力领域的基础中文分词模型组件，目标是打造电力领域的自然语言处理基础能力
-[![Documentation Status](https://readthedocs.org/projects/nlp-ecws-r30/badge/?version=latest)](https://nlp-ecws-r30.readthedocs.io/zh_CN/latest/?badge=latest)
-
 
 ## 安装指南
 ecws 依赖以下包:
