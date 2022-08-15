@@ -78,7 +78,7 @@ def webservice_ecws(sentence):
 
 * 电力自然语言处理演示平台
 
-[http://demo.rises.tech](http://demo.rises.tech)
+[http://demo.sgccnlp.com](http://demo.sgccnlp.com)
 
 ## 开发者
 @ 张强<<[alxor@live.cn](alxor@live.cn)>>
