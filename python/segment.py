@@ -39,7 +39,7 @@ def import_module_and_submodules(package_name: str) -> None:
             import_module_and_submodules(subpackage)
 
 
-library = 'my_library'
+library = 'core'
 import_module_and_submodules(library)
 
 

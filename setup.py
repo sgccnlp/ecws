@@ -1,6 +1,6 @@
 # from setuptools import setup,find_packages
 import setuptools
-from pyecws import VERSION
+from python import VERSION
 
 SHORT_DESC = (
     "面向电力领域的中文分词工具"

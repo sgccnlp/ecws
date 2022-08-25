@@ -2,6 +2,10 @@
 ![CODE SIZE](https://img.shields.io/github/languages/code-size/rises-tech/ecws)
 [![Build status](https://ci.appveyor.com/api/projects/status/67pa0koiuf7pi1ql?svg=true)](https://ci.appveyor.com/project/campper/ecws)
 [![PyPI Downloads](https://img.shields.io/pypi/dm/ecws.svg)](https://pypi.python.org/pypi/ecws)
+|Language|version|
+|:-----:|:-----:|
+|[Python](python/README.md)|[![ECWS](https://img.shields.io/pypi/v/ecws?label=ecws)](https://pypi.org/project/ecws/)|
+
 #   电力领域中文分词模型
 ecws　是面向电力领域的基础中文分词模型组件，目标是打造电力领域的自然语言处理基础能力
 
@@ -18,7 +22,7 @@ R3.0.5
 ```
 
 ## 模型命名
-  NLP-ECWS-R3.0.5
+  ENLP-ECWS-R3.0.5
 
 ## 安装
 
