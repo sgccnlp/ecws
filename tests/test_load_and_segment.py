@@ -1,7 +1,7 @@
 import pytest
 import os
 
-from ecws.segment import Segmenter
+from pyecws.segment import Segmenter
 
 
 class TestLoadAndSegment:
