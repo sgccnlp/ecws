@@ -31,7 +31,7 @@ pip install ecws
 或从源代码安装
 
 ```bash
-git clone https://github.com/rises-tech/ecws.git
+git clone https://github.com/sgccnlp/ecws.git
 cd NLP-ECWS
 pip install -e .
 ```
