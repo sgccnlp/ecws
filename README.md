@@ -76,9 +76,9 @@ def webservice_ecws(sentence):
 ```
 其中返回的结果是一个字典，字段'sent'中包含分词结果。
 
-* 电力自然语言处理演示平台
+* 电力认知智能计算团队
 
-[http://demo.sgccnlp.com](http://demo.sgccnlp.com)
+[http://sgccnlp.com](http://sgccnlp.com)
 
 ## 开发者
 @ 张强<<[alxor@live.cn](alxor@live.cn)>>
