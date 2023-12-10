@@ -3,7 +3,7 @@ import setuptools
 from pyecws import VERSION
 
 SHORT_DESC = (
-    "面向电力领域的中文分词工具"
+    "电力领域的中文分词工具"
 )
 
 with open("README.md","r") as fh:
@@ -17,7 +17,7 @@ setuptools.setup(
     long_description=long_description,
     long_description_content_type="text/markdown",
     keywords=("ecws", "3.0.5"),
-    url="http://github.com/rises-tech/ecws",
+    url="http://github.com/sgccnlp/ecws",
     author="alxor",
     author_email="alxor@live.cn",
     license='MIT',
